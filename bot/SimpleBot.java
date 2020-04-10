@@ -61,4 +61,7 @@ public class SimpleBot {
             System.out.printf("%d!\n", i);
         }
     }
+
+    static void test() {
+    }
 }
