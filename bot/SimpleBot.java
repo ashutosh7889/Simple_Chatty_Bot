@@ -15,6 +15,7 @@ public class SimpleBot {
         String birthYear = sc.nextLine();
         greet(assistantName, birthYear);
         remindName();
+        guessAge();
     }
 
     /**
