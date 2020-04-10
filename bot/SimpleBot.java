@@ -16,6 +16,7 @@ public class SimpleBot {
         greet(assistantName, birthYear);
         remindName();
         guessAge();
+        test();
     }
 
     /**
