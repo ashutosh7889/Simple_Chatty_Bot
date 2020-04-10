@@ -13,6 +13,7 @@ public class SimpleBot {
     public static void main(String[] args) {
         String assistantName = sc.nextLine();
         String birthYear = sc.nextLine();
+        greet(assistantName, birthYear);
     }
 
     /**
