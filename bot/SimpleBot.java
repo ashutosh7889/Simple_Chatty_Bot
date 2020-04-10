@@ -85,6 +85,11 @@ public class SimpleBot {
         }
     }
 
+    /**
+     * this is a end method.
+     * This method simply say congratulations to the user for giving correct answer.
+     */
     static void end() {
+        System.out.println("Congratulations, have a nice day!");
     }
 }
