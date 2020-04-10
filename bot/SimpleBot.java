@@ -28,11 +28,14 @@ public class SimpleBot {
     }
 
     /**
-     * This is a remind method.
+     * This is a remindName method.
      * This method take the name of user and print it.
      */
     static void remindName() {
         String userName = sc.nextLine();
         System.out.println("What a great name you have, " + userName + "!");
+    }
+
+    static void guessAge() {
     }
 }
