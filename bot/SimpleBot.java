@@ -26,4 +26,7 @@ public class SimpleBot {
         System.out.println("I was created in " + birthYear + ".");
         System.out.println("Please, remind me your name.");
     }
+
+    static void remindName() {
+    }
 }
