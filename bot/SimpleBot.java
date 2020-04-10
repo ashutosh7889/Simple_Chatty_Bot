@@ -11,7 +11,8 @@ public class SimpleBot {
     final static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-
+        String assistantName = sc.nextLine();
+        String birthYear = sc.nextLine();
     }
 
     /**
