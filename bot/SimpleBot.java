@@ -27,7 +27,12 @@ public class SimpleBot {
         System.out.println("Please, remind me your name.");
     }
 
+    /**
+     * This is a remind method.
+     * This method take the name of user and print it.
+     */
     static void remindName() {
         String userName = sc.nextLine();
+        System.out.println("What a great name you have, " + userName + "!");
     }
 }
