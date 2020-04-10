@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 
 public class SimpleBot {
-    final Scanner sc = new Scanner(System.in);
+    final static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
 
@@ -28,5 +28,6 @@ public class SimpleBot {
     }
 
     static void remindName() {
+        String name = sc.nextLine();
     }
 }
