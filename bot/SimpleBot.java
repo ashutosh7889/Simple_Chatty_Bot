@@ -14,6 +14,16 @@ public class SimpleBot {
 
     }
 
-    static void greet(String assistantName, String bithYear) {
+    /**
+     * This is greet method.
+     * This method print the assistant name and birth year and asking the name of the user.
+     *
+     * @param assistantName name of the assistant.
+     * @param birthYear     birth year of the assistant.
+     */
+    static void greet(String assistantName, String birthYear) {
+        System.out.println("Hello! My name is " + assistantName + ".");
+        System.out.println("I was created in " + birthYear + ".");
+        System.out.println("Please, remind me your name.");
     }
 }
