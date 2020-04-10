@@ -28,6 +28,6 @@ public class SimpleBot {
     }
 
     static void remindName() {
-        String name = sc.nextLine();
+        String userName = sc.nextLine();
     }
 }
