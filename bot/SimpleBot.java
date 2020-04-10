@@ -10,6 +10,12 @@ import java.util.Scanner;
 public class SimpleBot {
     final static Scanner sc = new Scanner(System.in);
 
+    /**
+     * This is a main method.
+     * This method take the name and birth year of assistant and call the methods greet(),remindName(),guessAge(),count(),test() and end().
+     *
+     * @param args arguments for the main method..
+     */
     public static void main(String[] args) {
         String assistantName = sc.nextLine();
         String birthYear = sc.nextLine();
@@ -45,7 +51,7 @@ public class SimpleBot {
 
     /**
      * This is a guessAge method.
-     * this method calculating the age of the user by taking the remainder of by dividing 3,5 and 7.
+     * This method calculating the age of the user by taking the remainder of by dividing 3,5 and 7.
      */
     static void guessAge() {
         System.out.println("Let me guess your age.");
@@ -93,7 +99,7 @@ public class SimpleBot {
     }
 
     /**
-     * this is a end method.
+     * This is a end method.
      * This method simply say congratulations to the user for giving correct answer.
      */
     static void end() {
