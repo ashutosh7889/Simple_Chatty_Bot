@@ -62,6 +62,12 @@ public class SimpleBot {
         }
     }
 
+    /**
+     * This is a test method.
+     * This method gives the question and associate options to user.
+     * user give the answer as option number.
+     * if the answer is correct then it completely out the method otherwise it wait for the correct answer.
+     */
     static void test() {
         System.out.println("Let's test your programming knowledge.");
         System.out.println("Why do we use methods?");
@@ -71,6 +77,11 @@ public class SimpleBot {
             System.out.println("3. To determine the execution time of a program.");
             System.out.println("4. To interrupt the execution of a program.");
             int answer = sc.nextInt();
+            if (answer == 2) {
+                break;
+            } else {
+                System.out.println("Please, try again.");
+            }
         }
     }
 }
