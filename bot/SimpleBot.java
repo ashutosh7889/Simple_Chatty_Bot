@@ -42,5 +42,6 @@ public class SimpleBot {
         int rem3 = sc.nextInt();
         int rem5 = sc.nextInt();
         int rem7 = sc.nextInt();
+        int age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105;
     }
 }
