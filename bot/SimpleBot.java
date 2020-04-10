@@ -13,4 +13,7 @@ public class SimpleBot {
     public static void main(String[] args) {
 
     }
+
+    static void greet(String assistantName, String bithYear) {
+    }
 }
